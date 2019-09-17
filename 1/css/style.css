@@ -16,7 +16,22 @@ img {
   max-width: 30%;
 }
 
-#undrln {
+details {
+  align: center;
+}
+
+.videva {
+  height: 360px;
+  width: 480px;
+}
+
+/* div > iframe {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.undrln {
   border-bottom: 1px solid #aaa;
 }
 
