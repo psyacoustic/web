@@ -1,0 +1,29 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  background-color: #f6f6f6;
+  line-height: 1.6;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+img {
+  margin:5px;
+  max-width: 30%;
+}
+
+#undrln {
+  border-bottom: 1px solid #aaa;
+}
+
+.osnova {
+  background-color: #fff;
+  border-style: solid;
+  border-color: rgb(167, 215, 249);
+  border-width: 1px;
+  padding: 10px;
+}
