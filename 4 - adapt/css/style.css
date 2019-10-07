@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #ffffcc;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+.block_bro {
+    background-color: #ffc266;
+}
+
+.block_pin {
+    background-color: #ffb3d9;
+}
+
+.block_gre {
+    background-color: #66ff66;
+}
+
+@media(max-width: 480px) {
+    .blocks {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 100px) {
+    .blocks {
+        flex-wrap: wrap;
+    }
+}
